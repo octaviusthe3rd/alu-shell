@@ -10,4 +10,5 @@ The script 8-firstdelete removes the file betty
 The script 9-firstdirdeletion deletes the directory my_first_directory
 The script 10-back takes the user one directory backward
 The script 11-lists prints a list of the contents in the current directory, previous directory andd the directory boot
-The script 12-file_type displays the file type
+The script 12-file_type displays the file type of iamafile
+The script 13-symbolic_link creates a symbolic link named __ls__
