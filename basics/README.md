@@ -12,3 +12,4 @@ The script 10-back takes the user one directory backward
 The script 11-lists prints a list of the contents in the current directory, previous directory andd the directory boot
 The script 12-file_type displays the file type of iamafile
 The script 13-symbolic_link creates a symbolic link named __ls__
+The script 14-copy_html copies only html files from current working directory to the parent working directory
