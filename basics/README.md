@@ -9,3 +9,4 @@ The script 7-movethatfile moves the file betty from tmp to tmp/my_first_director
 The script 8-firstdelete removes the file betty
 The script 9-firstdirdeletion deletes the directory my_first_directory
 The script 10-back takes the user one directory backward
+The script 11-lists prints a list of the contents in the current directory, previous directory andd the directory boot 
