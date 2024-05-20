@@ -13,3 +13,4 @@ The script 11-lists prints a list of the contents in the current directory, prev
 The script 12-file_type displays the file type of iamafile
 The script 13-symbolic_link creates a symbolic link named __ls__
 The script 14-copy_html copies only html files from current working directory to the parent working directory
+The script 15-lets_move moves all files beginning with an uppercase folder to tmp/u
