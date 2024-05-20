@@ -14,4 +14,5 @@ The script 12-file_type displays the file type of iamafile
 The script 13-symbolic_link creates a symbolic link named __ls__
 The script 14-copy_html copies only html files from current working directory to the parent working directory
 The script 15-lets_move moves all files beginning with an uppercase folder to tmp/u
-The script 16-clean_emacs deles all files ending with a tilde in the current working directory
+The script 16-clean_emacs deletes all files ending with a tilde in the current working directory
+The script 17-tree creates a tree of directories
