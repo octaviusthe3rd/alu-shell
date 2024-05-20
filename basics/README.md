@@ -4,3 +4,4 @@ The script 2-bring_me_home changes the user's current directory to the home dire
 The script 3-listfiles lists the files in the working directory using a list/long format
 The script 4-listmorefiles lists all the files in the working directory including the hidden files
 The script 5-listfilesdigitonly lists all files in the working directory as well as the user and group IDs
+The script 6-firstdirectory creates a directory in the tmp directory called my_first_directory
