@@ -6,3 +6,4 @@ The script 4-listmorefiles lists all the files in the working directory includin
 The script 5-listfilesdigitonly lists all files in the working directory as well as the user and group IDs
 The script 6-firstdirectory creates a directory in the tmp directory called my_first_directory
 The script 7-movethatfile moves the file betty from tmp to tmp/my_first_directory
+The script 8-firstdelete removes the file betty
