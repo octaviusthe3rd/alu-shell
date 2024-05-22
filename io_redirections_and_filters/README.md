@@ -5,3 +5,4 @@ The script 3-twofiles prints the contents of 2 locations
 The script 4-lastlines prints the last 10 lines of passwd
 The script 5-firstlines displays the first 10 lines of passwd
 The script 6-third_line displays the third of iacta
+The script 7-file creates a file called Best school with the content best school and symbols
