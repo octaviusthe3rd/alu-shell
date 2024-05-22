@@ -7,3 +7,4 @@ The script 5-execute grants executable permission to the file hello
 The script 6-multiple_permissions grants multiple permissions to different users to the file hello
 The script 7-everybody grants executing permissions to all users
 The script 8-James_Bond takes away permissions from user and groups but gives all permissions to the other users
+The script 9-John_Doe changes the file permissions to the specified permissions
