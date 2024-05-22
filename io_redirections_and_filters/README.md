@@ -10,3 +10,4 @@ The script 8-cwd_state writes the command ls -la to ls_cwd_content
 The script 9-duplicate_last_line duplicated the last line of the file iacta
 The script 10-no_more_js deletes all js files in the current directory and their sub directories
 The script 11-directories counts the number of directories in the current directory and its sub directories
+The script 12-newest_files displays the 10 newest files in the current directory
