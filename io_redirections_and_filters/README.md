@@ -15,3 +15,4 @@ The script 13-unique prints out words that appear only once from amlist of words
 The script 14-findthatword prints lines that contain root from the file
 The script 15-countthatword displays the numbers with the pattern bin
 The script 16-whatsnext displays lines with the pattern root and 3 lines in the file passwd
+The script 17-hidethisword displays all files in the directory /etc/passwd but leaves behind those that contain the word bin
