@@ -10,3 +10,4 @@ The script 8-James_Bond takes away permissions from user and groups but gives al
 The script 9-John_Doe changes the file permissions to the specified permissions
 The script 10-mirror_permissions mirrors the permissions for hello to tthe file olleh
 The script 11-directories_permissions grants executable permissions to all directories inside the current working directory without altering file permissions
+The script 12-directory_permissions creates a directory with the permissions rwx for user, r-x for group, x for others
