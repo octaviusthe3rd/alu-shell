@@ -13,3 +13,5 @@ The script 11-directories counts the number of directories in the current direct
 The script 12-newest_files displays the 10 newest files in the current directory
 The script 13-unique prints out words that appear only once from amlist of words as input
 The script 14-findthatword prints lines that contain root from the file
+The script 15-countthatword displays the numbers with the pattern bin
+The script 16-whatsnext displays lines with the pattern root and 3 lines in the file passwd
