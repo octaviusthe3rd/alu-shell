@@ -14,3 +14,4 @@ The script 12-directory_permissions creates a directory with the permissions rwx
 The script 13-change_group changes the group of the file hello to the group school
 The script 14-change_owner_and_user changes ownership of files and directories in the local directory to user vincent and group staff
 The script 15-symbolic_link-permissions changes ownership of the symbolic link hello to user vincent and group staff
+The script 16-if_only changes ownership of the file hello only if the user is gilliname
