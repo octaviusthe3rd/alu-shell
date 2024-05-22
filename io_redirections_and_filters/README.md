@@ -20,3 +20,4 @@ The script 18-letteronly prints all the lines in the file beginning with a lette
 The script 19-AZ changes all the characters A and c to Z and e from input
 The script 20-hiago removes all uppercase and lowercase C from input
 The script 21-reverse reverse the entire input
+The script 22-users_and_homes displays all user directories sorted by user
