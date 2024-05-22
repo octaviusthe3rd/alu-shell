@@ -21,3 +21,5 @@ The script 19-AZ changes all the characters A and c to Z and e from input
 The script 20-hiago removes all uppercase and lowercase C from input
 The script 21-reverse reverse the entire input
 The script 22-users_and_homes displays all user directories sorted by user
+The script 23-empty_casks lists all empty files in the current directory and its sub directories
+The script 24-gifs lists all files with the gif extension in the current directory and its sub directories
