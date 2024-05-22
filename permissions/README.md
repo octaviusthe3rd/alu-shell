@@ -8,3 +8,4 @@ The script 6-multiple_permissions grants multiple permissions to different users
 The script 7-everybody grants executing permissions to all users
 The script 8-James_Bond takes away permissions from user and groups but gives all permissions to the other users
 The script 9-John_Doe changes the file permissions to the specified permissions
+The script 10-mirror_permissions mirrors the permissions for hello to tthe file olleh
