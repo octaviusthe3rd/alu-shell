@@ -7,3 +7,4 @@ The script 5-firstlines displays the first 10 lines of passwd
 The script 6-third_line displays the third of iacta
 The script 7-file creates a file called Best school with the content best school and symbols
 The script 8-cwd_state writes the command ls -la to ls_cwd_content
+The script 9-duplicate_last_line duplicated the last line of the file iacta
