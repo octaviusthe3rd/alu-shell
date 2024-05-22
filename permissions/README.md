@@ -12,3 +12,4 @@ The script 10-mirror_permissions mirrors the permissions for hello to tthe file 
 The script 11-directories_permissions grants executable permissions to all directories inside the current working directory without altering file permissions
 The script 12-directory_permissions creates a directory with the permissions rwx for user, r-x for group, x for others
 The script 13-change_group changes the group of the file hello to the group school
+The script 14-change_owner_and_user changes ownership of files and directories in the local directory to user vincent and group staff
