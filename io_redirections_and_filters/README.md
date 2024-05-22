@@ -23,3 +23,5 @@ The script 21-reverse reverse the entire input
 The script 22-users_and_homes displays all user directories sorted by user
 The script 23-empty_casks lists all empty files in the current directory and its sub directories
 The script 24-gifs lists all files with the gif extension in the current directory and its sub directories
+The script 25-acrostic decodes akind of poem know as an acrostic
+The script
