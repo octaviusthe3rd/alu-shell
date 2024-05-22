@@ -17,3 +17,4 @@ The script 15-countthatword displays the numbers with the pattern bin
 The script 16-whatsnext displays lines with the pattern root and 3 lines in the file passwd
 The script 17-hidethisword displays all files in the directory /etc/passwd but leaves behind those that contain the word bin
 The script 18-letteronly prints all the lines in the file beginning with a letter including capital letters
+The script 19-AZ changes all the characters A and c to Z and e from input
