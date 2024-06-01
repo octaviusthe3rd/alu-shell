@@ -1,4 +1,4 @@
-##!/usr/bin/env bash
+#!/usr/bin/env bash
 # The script change the output of 4th, 9th and 17 iteration
 
 count=1
