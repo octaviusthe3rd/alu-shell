@@ -1,0 +1,26 @@
+#!/bin/bash
+# The script change the output of 4th, 9th and 17 iteration
+
+count=1
+
+while [[ $counter -le 20 ]]; do
+  case $counter in
+    4)
+      echo "$counter"
+      echo "bad luck from China"
+      ;;
+    9)
+      echo "$counter"
+      echo "bad luck from Japan"
+      ;;
+    17)
+      echo "$counter"
+      echo "bad luck from Italy"
+      ;;
+    *)  # any other number
+      echo "$counter"
+      ;;
+  esac
+
+  ((counter++))
+done
