@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#Handling the signal
+#The script handles the received signal
 
 trap "echo 'I am invincible!!!'" SIGTERM
 
