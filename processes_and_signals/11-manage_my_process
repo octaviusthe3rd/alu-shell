@@ -1,0 +1,47 @@
+#!/usr/bin/env bash
+# The script manages daemons according to certain conditions
+
+FILE="/var/run/my_process.pid"
+
+start() {
+  if [ -f "$FILE" ]; then
+    echo "manage_my_process is already running"
+  else
+    nohup ./manage_my_process &>/dev/null &
+    echo $! > "$FILE"
+    echo "manage_my_process started"
+  fi
+}
+
+stop() {
+  if [ -f "$FILE" ]; then
+    PID=$(cat "$FILE")
+    kill "$PID"
+    rm "$FILE"
+    echo "manage_my_process stopped"
+  else
+    echo "manage_my_process is not running"
+  fi
+}
+
+restart() {
+  stop
+  start
+  echo "manage_my_process restarted"
+}
+
+case "$1" in
+  start)
+    start
+    ;;
+  stop)
+    stop
+    ;;
+  restart)
+    restart
+    ;;
+  *)
+    echo "Usage: manage_my_process {start|stop|restart}"
+    exit 1
+    ;;
+esac
