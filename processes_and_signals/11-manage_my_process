@@ -1,23 +1,42 @@
 #!/usr/bin/env bash
 # The script manages daemons according to certain conditions
 
+script_name="manage_my_process"
+pid_file="/var/run/$script_name.pid"
+
+start() {
+    "./$script_name" &
+    process_id=$!
+    echo "$process_id" > "$pid_file"
+    echo "$script_name started"
+}
+
+stop() {
+    if [ -e "$pid_file" ]; then
+        process_id=$(cat "$pid_file")
+        kill "$process_id"
+        rm "$pid_file"
+        echo "$script_name stopped"
+    else
+        echo "$script_name is not running"
+    fi
+}
+
+restart() {
+    stop
+    start
+    echo "$script_name restarted"
+}
+
 case "$1" in
     start)
-        ./manage_my_process &
-        process_id=$!
-        echo "$process_id" > /var/run/my_process.pid
-        echo "manage_my_process started"
+        start
         ;;
     stop)
-        process_id=$(cat /var/run/my_process.pid)
-        kill "$process_id"
-        rm /var/run/my_process.pid
-        echo "manage_my_process stopped"
+        stop
         ;;
     restart)
-        $0 stop
-        $0 start
-        echo "manage_my_process restarted"
+        restart
         ;;
     *)
         echo "Usage: $0 {start|stop|restart}"
